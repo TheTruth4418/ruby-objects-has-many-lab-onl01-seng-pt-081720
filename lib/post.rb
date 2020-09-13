@@ -8,6 +8,10 @@ class Post
     @@all << self
   end
 
+  def all 
+    @@all
+  end
+
   def author_name
     if @author == nil
       return nil
