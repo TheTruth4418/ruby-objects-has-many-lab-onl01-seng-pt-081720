@@ -11,4 +11,4 @@ class Artist
     @songs
   end
 end
-binding.pry 
+binding.pry
