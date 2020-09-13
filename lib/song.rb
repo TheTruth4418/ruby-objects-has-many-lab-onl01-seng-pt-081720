@@ -11,4 +11,8 @@ class Song
     @@all
   end
 
+  def self.song_artist
+    @artist
+  end
+
 end
