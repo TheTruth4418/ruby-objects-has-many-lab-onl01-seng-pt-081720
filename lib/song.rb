@@ -12,7 +12,7 @@ class Song
   end
 
   def artist_name
-    @artist.name
+    @artist.name if @artist.name != ""
   end
 
 end
